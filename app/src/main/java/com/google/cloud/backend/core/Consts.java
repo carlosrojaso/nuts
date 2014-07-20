@@ -23,17 +23,17 @@ public interface Consts {
     /**
      * Set Project ID of your Google APIs Console Project.
      */
-    public static final String PROJECT_ID = "*** ENTER YOUR PROJECT ID ***";
+    public static final String PROJECT_ID = "feisty-lambda-522";
 
     /**
      * Set Project Number of your Google APIs Console Project.
      */
-    public static final String PROJECT_NUMBER = "*** ENTER YOUR PROJECT NUMBER ***";
+    public static final String PROJECT_NUMBER = "898652117588";
 
     /**
      * Set your Web Client ID for authentication at backend.
      */
-    public static final String WEB_CLIENT_ID = "*** ENTER YOUR WEB CLIENT ID ***";
+    public static final String WEB_CLIENT_ID = "898652117588-ba8rjk77cp9ebiqf9n2giqprvhssirqb.apps.googleusercontent.com";
 
     /**
      * Set default user authentication enabled or disabled.

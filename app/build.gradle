@@ -6,14 +6,13 @@ android {
 
     defaultConfig {
         applicationId "com.google.cloud.backend"
-        minSdkVersion 15
         targetSdkVersion 20
     }
 
     buildTypes {
         release {
             runProguard true
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project.txt', 'proguard-google-api-client.txt'
+            proguardFiles 'proguard-project.txt', 'proguard-google-api-client.txt'
         }
     }
 }
@@ -24,14 +23,4 @@ dependencies {
     compile 'com.google.android.gms:play-services:5.0.77'
     compile 'com.google.http-client:google-http-client-gson:1.17.0-rc'
     compile 'com.google.code.gson:gson:2.1'
-    compile files('libs/google-api-client-1.15.0-rc.jar')
-    compile files('libs/google-api-client-android-1.15.0-rc.jar')
-    compile files('libs/google-http-client-1.15.0-rc.jar')
-    compile files('libs/google-http-client-android-1.15.0-rc.jar')
-    compile files('libs/google-http-client-jackson-1.15.0-rc.jar')
-    compile files('libs/google-http-client-jackson2-1.15.0-rc.jar')
-    compile files('libs/google-oauth-client-1.15.0-rc.jar')
-    compile files('libs/jackson-core-2.1.3.jar')
-    compile files('libs/jackson-core-asl-1.9.11.jar')
-    compile files('libs/jsr305-1.3.9.jar')
 }
